@@ -1,8 +1,12 @@
 # Banco New
 
+🏦🌟
+
 This is a simple program that simulates a banking system. It allows users to perform operations such as withdrawal, deposit, and view the account statement.
 
 ## How to Use
+
+🔧📋
 
 1. Run the code in a Python environment.
 2. Follow the instructions displayed in the menu to select the desired operation.
@@ -13,6 +17,8 @@ This is a simple program that simulates a banking system. It allows users to per
 
 ## Features
 
+⚙️📄
+
 The program offers the following features:
 
 - **Withdraw (s)**: Allows you to withdraw a specific amount of money from the account. It checks for sufficient balance, available limit, and exceeded withdrawal limit before completing the operation.
@@ -21,6 +27,8 @@ The program offers the following features:
 - **Quit (q)**: Exits the program.
 
 ## Variables
+
+🔢📊
 
 The program uses the following variables:
 
@@ -31,6 +39,8 @@ The program uses the following variables:
 - `LIMITE_SAQUES` (WITHDRAWAL_LIMIT): Stores the maximum number of withdrawals allowed.
 
 ## Example
+
+🔍📝
 
 Here's an example of using the program:
 
@@ -60,4 +70,9 @@ Retornando para a tela inicial... Aguarde... (Returning to the main screen... Pl
 
 ## Notes
 
+⚠️📝
+
 - Make sure to enter valid values when making deposits or withdrawals.
+
+🌟🏦🌟
+
