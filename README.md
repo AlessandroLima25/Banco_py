@@ -1,78 +1,79 @@
-# Banco New
+🏦🌟 Banco New - Sistema Bancário 🌟🏦
 
-🏦🌟
+Bem-vindo ao Sistema Bancário do Banco New! Este programa simula um ambiente bancário e permite que os usuários realizem diversas operações. Veja como usar o programa:
 
-This is a simple program that simulates a banking system. It allows users to perform operations such as withdrawal, deposit, and view the account statement.
-
-## How to Use
-
+## Como Usar
 🔧📋
 
-1. Run the code in a Python environment.
-2. Follow the instructions displayed in the menu to select the desired operation.
-3. Enter the requested information, such as the deposit amount or withdrawal quantity.
-4. The program will process the operation and display informative messages about the result.
-5. After completing each operation, you will be redirected back to the menu to select a new option.
-6. To exit the program, select the "q" option in the menu.
+1. Execute o código em um ambiente Python.
+2. Siga o menu exibido na tela para selecionar a operação desejada.
+3. Insira as informações necessárias para cada operação.
+4. O programa processará sua solicitação e exibirá mensagens informativas sobre o resultado.
+5. Após cada operação, você será redirecionado de volta ao menu para selecionar outra opção.
+6. Para sair do programa, selecione a opção "q" no menu.
 
-## Features
-
+## Funcionalidades
 ⚙️📄
 
-The program offers the following features:
+O programa oferece as seguintes funcionalidades:
 
-- **Withdraw (s)**: Allows you to withdraw a specific amount of money from the account. It checks for sufficient balance, available limit, and exceeded withdrawal limit before completing the operation.
-- **Deposit (d)**: Allows you to make a deposit into the account. It checks if the deposit amount is positive before completing the operation.
-- **Statement (e)**: Displays the account statement, showing all the operations performed and the current balance.
-- **Quit (q)**: Exits the program.
+- **Sacar (s):** Permite sacar uma quantia específica de dinheiro da sua conta. Ele verifica o saldo suficiente, o limite disponível e os limites de saque excedidos antes de concluir a operação.
+- **Depositar (d):** Permite fazer um depósito em sua conta. Ele verifica se o valor do depósito é positivo antes de concluir a operação.
+- **Extrato (e):** Exibe o extrato da sua conta, mostrando todas as operações realizadas e seu saldo atual.
+- **Novo Usuário (n):** Cria um novo usuário fornecendo informações pessoais necessárias, como nome, data de nascimento e endereço.
+- **Nova Conta (nc):** Cria uma nova conta para um usuário existente. Cada usuário pode ter várias contas.
+- **Filtrar Contas (fc):** Exibe uma lista de contas existentes juntamente com seus detalhes.
+- **Sair (q):** Sai do programa.
 
-## Variables
-
+## Variáveis
 🔢📊
 
-The program uses the following variables:
+O programa usa as seguintes variáveis:
 
-- `saldo` (balance): Stores the current account balance.
-- `limite` (limit): Stores the available withdrawal limit.
-- `extrato` (statement): Stores the history of operations performed.
-- `numero_saques` (num_withdrawals): Stores the number of withdrawals made.
-- `LIMITE_SAQUES` (WITHDRAWAL_LIMIT): Stores the maximum number of withdrawals allowed.
+- `saldo`: Armazena o saldo atual da conta.
+- `limite`: Armazena o limite de saque disponível.
+- `extrato`: Armazena o histórico das operações realizadas.
+- `numero_saques`: Armazena o número de saques efetuados.
+- `LIMITE_SAQUES`: Armazena o número máximo de saques permitidos.
 
-## Example
-
+## Exemplo
 🔍📝
 
-Here's an example of using the program:
+Aqui está um exemplo de como usar o programa:
 
 ```
 *******************Banco New*******************
-Welcome to our banking system!
-Please enter the initials below to perform operations!
+Bem-vindo ao nosso sistema bancário!
+Por favor, insira as iniciais abaixo para realizar operações!
 
-[s] Sacar (Withdraw)
-[d] Depositar (Deposit)
-[e] Extrato (Statement)
-[q] Sair (Quit)
+[s] Sacar
+[d] Depositar
+[e] Extrato
+[n] Novo Usuário
+[nc] Nova Conta
+[fc] Filtrar Contas
+[q] Sair
 
 ***********************************************
-=>s
+=> s
 *******************Banco New*******************
-Opção de saque selecionada! (Withdraw option selected!)
-Digite a quantidade para sacar: 50 (Enter the amount to withdraw: 50)
+Opção de saque selecionada!
+Digite o valor para sacar: 50
 
-Aguarde enquanto processamos seu pedido... (Please wait while we process your request...)
-Saque realizado com sucesso! (Withdrawal successful!)
+Aguarde enquanto processamos sua solicitação...
+Saque realizado com sucesso!
 
-A sua conta agora possui um novo saldo de R$450.00 (Your account now has a new balance of $450.00)
-Confira o Extrato para mais detalhes! (Check the Statement for more details!)
-Retornando para a tela inicial... Aguarde... (Returning to the main screen... Please wait...)
+A sua conta agora possui um novo saldo de R$450.00
+Confira o Extrato para mais detalhes!
+Retornando para a tela inicial... Aguarde...
 ```
 
-## Notes
-
+## Observações
 ⚠️📝
 
-- Make sure to enter valid values when making deposits or withdrawals.
+- Certifique-se de inserir valores válidos ao fazer depósitos ou saques.
+- Este programa é para fins educacionais e simula operações bancárias básicas.
 
 🌟🏦🌟
 
+Para usar o código atualizado, substitua o código existente pelo trecho de código fornecido no seu ambiente Python. Sinta-se à vontade para modificar e expandir ainda mais o programa para adicionar mais funcionalidades, se necessário.
